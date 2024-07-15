@@ -1,0 +1,648 @@
+ .a{ 
+    float: right;   
+}
+.b{
+    text-decoration:none ;
+    color: gray;
+    border-radius: 8px;
+    font-family: tahoma;
+    font-size: 12px;
+    padding: 2px 10px;
+}
+.c{
+    font-family: tahoma;
+    font-size: 12px;
+    text-decoration:none ;
+    color:  gray;
+    border-radius: 8px;
+    padding: 2px 10px;
+}
+.b:hover{
+    color: black;
+    background-color: #ccc;
+}
+.c:hover{
+    color: white;
+    background-color: #73c2fb;
+}
+.d{
+    border: 2px solid;
+    background-color: white;
+    border: none;
+    height: 55px;
+    margin: 0px;
+    position: relative;
+}
+.e{
+    width: 100px;
+    height: 35px;
+    padding: 15px 19px 0px 20px;
+    padding-bottom: 8px;
+}
+.f{
+    border: 2px solid;
+    border-radius: 5px;
+    width: 133px; 
+    height:25px ;
+    margin: 7px;
+    margin-left: 150px;
+    padding: 8px;
+    padding-top: 8px;
+    position: absolute;
+    font-size: 12px;
+    display: inline;
+    color: white;
+    background-color: #3a7ca5;
+    text-decoration: none;
+    font-family: tahoma;
+    
+}
+.f:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+   transition: 6s; 
+}
+.g{
+    border: 2px solid;
+    border-radius: 5px;
+    width: 69px; 
+    height:25px ;
+    margin: 7px;
+    margin-left: 305px;
+    padding: 8px;
+    padding-top: 8px;
+    position: absolute;
+    font-size: 12px;
+    display: inline;
+    color: white;
+    background-color:rgb(42, 149, 42);
+    text-decoration: none;
+    font-family: tahoma;
+}
+.h{
+    position: absolute;
+    margin-left: 394px;
+    font-size: 12px;
+    padding: 8px;
+    padding-top: 17px;
+    text-decoration: none;
+    font-family: tahoma;
+    color: gray;
+}
+.i{
+    position: absolute;
+    margin-left: 520px;
+    font-size: 12px;
+    padding: 8px;
+    padding-top: 17px;
+    text-decoration: none;
+    font-family: tahoma;
+    color: gray;
+}
+.j{
+    position: absolute;
+    margin-left: 645px;
+    font-size: 12px;
+    padding: 8px;
+    padding-top: 17px;
+    text-decoration: none;
+    font-family: tahoma;
+    color: gray;
+}
+.k{
+    position: absolute;
+    margin-left: 695px;
+    font-size: 12px;
+    padding: 8px;
+    padding-top: 17px;
+    text-decoration: none;
+    font-family: tahoma;
+    color: gray;
+}
+.l{
+    position: absolute;
+    margin-left: 765px;
+    font-size: 12px;
+    padding: 8px;
+    padding-top: 17px;
+    text-decoration: none;
+    font-family: tahoma;
+    color: gray;
+}
+.m{
+    position: absolute;
+    margin-left: 875px;
+    font-size: 12px;
+    padding: 8px;
+    padding-top: 17px;
+    text-decoration: none;
+    font-family: tahoma;
+    color: gray;
+}
+ .n{
+    position: absolute;
+    margin-left: 960px;
+    font-size: 12px;
+    padding: 8px;
+    padding-top: 17px;
+    text-decoration: none;
+    font-family: tahoma;
+    color: gray;
+}
+.o{
+    border: 2px solid;
+    border-radius: 5px;
+    width: 147px; 
+    height:25px ;
+    margin: 7px;
+    margin-left: 1030px;
+    padding: 8px;
+    padding-top: 8px;
+    position: absolute;
+    font-size: 12px;
+    display: inline;
+    color: white;
+    background-color:rgb(255, 195, 11);
+    text-decoration: none;
+    font-family: tahoma;
+}
+.h:hover,.i:hover,.j:hover,.k:hover,.l:hover,.m:hover,.n:hover{
+    color: black;
+}
+.column {
+    float: left;
+    padding: 10px;
+    height: 540px;
+    
+  }
+.left {
+    width: 20%;
+    box-sizing: border-box;
+    margin-left: 80px; 
+   
+  }
+.right {
+    width: 68%;
+    box-sizing: border-box;
+    margin-right: 10px;
+    padding: 0%;
+   
+  }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .q{
+    color: white;
+  }
+  #All{
+    height: 15px;
+    width: 20px;
+  }
+  #car{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+  }
+  #model{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+  }
+  #price{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+  }
+  #region{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+  }
+  #submit{
+    width: 100%;
+    height: 45px;
+    background-color:rgb(42, 149, 42) ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .r{
+    color: white;
+    text-align: center;
+  }
+  .s{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+  #cars{
+    width: 100%;
+    height: 45px;
+    color:rgb(42, 149, 42) ;
+    background-color: white;
+  }
+  .t{
+    width: 100%;
+  }
+  .u{
+    padding-left: 10px;
+    font-size: 23px;
+  }
+  .v{
+    font-family: tahoma;
+    font-size: 15px;
+    margin-left: 355px;
+    margin-top: 0px;
+  }
+  .w{
+    width: 255px;
+    height: 620px;
+  }
+  .column2 {
+    float: left;
+    padding: 5px;
+    height: 300px; 
+    margin-top: 0px;
+  }
+  .first{
+    width: 19%;
+    margin-top: 0px;
+    margin-left: 80px;
+    height: 700px;
+  }
+  .second{
+    width: 15%;
+    margin-left: 13px;
+    position: relative;
+    height: 70px;
+  }
+  .third{
+    width: 15%;
+    margin-left: 21px;
+    position: relative;
+    height: 70px;
+
+  }
+  .fourth{
+    width: 15%;
+    margin-left: 21px;
+    position: relative;
+    height: 70px;
+
+  }
+  .fifth{
+    width: 15%;
+    margin-left: 21px;
+    position: relative;
+    height: 70px;
+
+  }
+
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .x{
+    border: 1px solid;
+    position: absolute;
+    width: 95%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 9px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0px;
+    background-image: linear-gradient(90deg, #1e90ff, #3a7ca5);
+    height: 60px;
+    color: white;
+    font-size: 9px;  
+  }
+  .y{
+    border: 1px solid;
+    position: absolute;
+    width: 95%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 9px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0px;
+    background-image: linear-gradient(90deg, #1e90ff, #3a7ca5);
+    height: 60px;
+    color: white;
+    font-size: 9px;  
+  }
+.z{
+    border: 1px solid;
+    position: absolute;
+    width: 95%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 9px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0px;
+    background-image: linear-gradient(90deg, #1e90ff, #3a7ca5);
+    height: 60px;
+    color: white;
+    font-size: 9px; 
+  }
+.a1{
+    border: 1px solid;
+    position: absolute;
+    width: 95%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 9px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0px;
+    background-image: linear-gradient(90deg, #1e90ff, #3a7ca5);
+    height: 60px;
+    color: white;
+    font-size: 9px;
+  }
+.x:hover, .y:hover, .z:hover, .a1:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+  }
+  .b1{
+    font-family: tahoma;
+    font-size: 15px;
+   position: absolute;
+    margin-left: 365px;
+  }
+  .c1{
+    position: absolute;
+    width: 95%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 9px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0px;
+    height: 100px;
+    color: #3a7ca5;
+    font-size: 7px;  
+  }
+  .d1{
+    width: 200px;
+    height: 130px;
+  }
+  .e1{
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    line-height: 1px;
+  }
+  .f1{
+    text-align: left;
+    color: black;
+    font-size: 20px;
+  }
+  .g1{
+    position: absolute;
+    width: 95%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 9px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0px;
+    height: 100px;
+    color: #3a7ca5;
+    font-size: 7px;  
+  }
+  .h1{
+    position: absolute;
+    width: 95%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 9px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0px;
+    height: 100px;
+    color: #3a7ca5;
+    font-size: 7px;  
+  }
+  .i1{
+    position: absolute;
+    width: 95%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 9px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0px;
+    height: 100px;
+    color: #3a7ca5;
+    font-size: 7px; 
+  }
+  .seconds{
+    width: 15%;
+    margin-left: 13px;
+    position: relative;
+    height: 70px;
+  }
+  .thirds{
+    width: 15%;
+    margin-left: 13px;
+    position: relative;
+    height: 70px;
+  }
+  .fourths{
+    width: 15%;
+    margin-left: 13px;
+    position: relative;
+    height: 70px;
+  }
+  .fifths{
+    width: 15%;
+    margin-left: 13px;
+    position: relative;
+    height: 70px;
+  }
+  .seconds:hover, .fourths:hover, .thirds:hover, .fifths:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 2px 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+   
+  }
+  .column3 {
+    float: left;
+    padding: 5px;
+    height: 400px; 
+    margin-top: 10px;
+  }
+  .secondss{
+    width: 20%;
+    margin-left: 13px;
+    position: relative;
+    height: 70px;
+  }
+  .thirdss{
+    width: 20%;
+    margin-left: 24px;
+    position: relative;
+    height: 70px;
+  }
+  .fourthss{
+    width: 20%;
+    margin-left: 24px;
+    position: relative;
+    height: 70px;
+  }
+  .j1{
+    margin-left: 0px;
+    font-size: 25px;
+    font-family: arial;
+    margin-top: 0px;
+  }
+  .k1{
+    margin-left: 0px;
+    font-size: 13px;
+    font-family: tahoma;
+    margin-top: 0px;
+    
+  }
+  .l1{
+    margin-left: 180px;
+    font-size: 25px;
+    font-family: arial;
+  }
+  .column4 {
+    float: left;
+    padding: 5px;
+    height: 400px; 
+    margin-top: 2px;
+  }
+  .secondsss{
+    width: 20%;
+    margin-left: 13px;
+    position: relative;
+    height: 35px;
+  }
+  .thirdsss{
+    width: 20%;
+    margin-left: 24px;
+    position: relative;
+    height: 35px;
+  }
+  .fourthsss{
+    width: 20%;
+    margin-left: 24px;
+    position: relative;
+    height: 35px;
+  }
+  .secondsss:hover, .thirdsss:hover, .fourthsss:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 2px 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+  }
+  .m1{
+    padding: 5px;
+  }
+  .n1{
+    position: absolute;
+    padding-top: 6px;
+    color: black;
+  }
+  .o1{
+    padding-top: 6px;
+    color: black;
+    float: right;
+  }
+  .p1{
+    width: 40px;
+    height: 30px;
+    padding: 3px;
+  }
+  .q1{
+    width: 10px;
+    height: 10px;
+  }
+  .r1{
+    margin-left: 570px;
+    font-size: 13px;
+  }
+  
+  .u1{
+    border: 1px solid;
+    width: 37px;
+    height: 18px;
+    padding-left: 10px;
+    padding-top: 1px;
+    color: white;
+    background-color: #1e90ff;
+    border-radius: 5px;
+    position: absolute;
+  } 
+  .b2{
+    border: 1px solid;
+    width: 160px;
+    height: 50px;
+    position: relative;
+    background-color: rgba(231, 12, 12, 0.879);
+    text-align: center;
+    font-family: tahoma;
+    color: white;
+    margin-left: 750px;
+    padding: 7px 25px;
+    border: none;
+    cursor: pointer;
+  }
+  .b2:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 2px 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .last{
+    font-size: 13px;
+    margin-left: 420px; 
+  }
+  .yes{
+    text-decoration: none;
+    color: #1e90ff;
+  }
+  .yes:hover{
+    color: gray;
+  }
+  .yess:hover{
+    color: #73c2fb;
+  }
+  .yess{
+    text-decoration: none;
+    color: #1e90ff;
+    border: 1px solid;
+    width: 100px;
+    padding: 1px 8px;
+    border-radius: 5px;
+    background-color: #3a7ca5;
+    color: white;
+  }
+  .down{
+    font-size: 13px;
+    margin-left: 430px;
+  }
+  .buttom{
+    font-size: 13px;
+    margin-left: 640px;
+  }
+  .buttomdown{
+    font-size: 13px;
+    margin-left: 680px;
+    line-height: 35px;
+  }
+  .what{
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    border: none; 
+  }
+  .icon{
+    margin-left: 765px; 
+  }
+  
+
+
+
+
+
+
+ 
+  
+
+  
+
+  
+  
